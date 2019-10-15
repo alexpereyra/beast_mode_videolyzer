@@ -5,7 +5,7 @@ Inspired by Next Gen Stats, I thought it was pretty sweet to be able to provide 
 
 [<img src="https://img.youtube.com/vi/<VIDEO ID>/maxresdefault.jpg" width="50%">](https://youtu.be/<VIDEO ID>)
 
-![portfolio website diagram](images/cicd-pipeline-for-portfolio-website.png)
+[![Watch the video](https://img.youtube.com/vi/RXs6G9YBo3c/maxresdefault.jpg)](https://www.youtube.com/watch?v=RXs6G9YBo3c)
 
 https://www.youtube.com/watch?v=RXs6G9YBo3c
 
