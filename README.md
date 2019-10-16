@@ -4,3 +4,7 @@ The purpose of this repo is build a video analyzer that ingests videos of workou
 Inspired by Next Gen Stats, I thought it was pretty sweet to be able to provide a new dimension of statistical information that could help identify areas and progress efficiently.
 
 [![Watch the video](https://img.youtube.com/vi/RXs6G9YBo3c/maxresdefault.jpg)](https://www.youtube.com/watch?v=RXs6G9YBo3c)
+
+# step one
+
+- I will be leveraging Amazon Rekognition to see what kind of information I can get with it.
