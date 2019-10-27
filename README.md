@@ -8,3 +8,10 @@ Inspired by Next Gen Stats, I thought it was pretty sweet to be able to provide 
 # step one
 
 - I will be leveraging Amazon Rekognition to see what kind of information I can get with it.
+
+# current progress.
+
+- using ipython to interactively use recognition service.
+- created bucket to upload videos to.
+- tested calls outputs to see what data would be useful to parse for later use.
+- details of call can be seen in the 'beast.py' file 
