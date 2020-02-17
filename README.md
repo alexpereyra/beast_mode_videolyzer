@@ -14,4 +14,6 @@ Inspired by Next Gen Stats, I thought it was pretty sweet to be able to provide 
 - using ipython to interactively use recognition service.
 - created bucket to upload videos to.
 - tested calls outputs to see what data would be useful to parse for later use.
-- details of call can be seen in the 'beast.py' file 
+- details of call can be seen in the 'beast.py' file
+
+# serverless project to automate some components

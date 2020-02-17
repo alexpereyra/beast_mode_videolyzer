@@ -56,7 +56,7 @@ result.keys()
 ```
 dict_keys(['JobStatus', 'Labels', 'LabelModelVersion', 'ResponseMetadata'])
 ```
-# current job status
+# current job status which can be one of 3 'IN_PROGRESS'|'SUCCEEDED'|'FAILED'
 result['JobStatus']
 # metadata for call made
 result['ResponseMetadata']
@@ -70,7 +70,28 @@ result['ResponseMetadata']
   'connection': 'keep-alive'},
  'RetryAttempts': 0}
 ```
-# label version
-result['LabelModelVersion']
-result['Labels']
+# metadata for video
+result['VideoMetadata']
+```
+{'Codec': 'h264',
+ 'DurationMillis': 147797,
+ 'Format': 'QuickTime / MOV',
+ 'FrameRate': 29.97360610961914,
+ 'FrameHeight': 1080,
+ 'FrameWidth': 1920}
+```
+# my video had 1000 labels so I had to pick one to show output
 len(result['Labels'])
+# one example label output.
+result['Labels']
+```
+ {'Timestamp': 67860, # time in the video this label was found
+  'Label': {'Name': 'Gym', # what rekognition intelligently labeled it as
+   'Confidence': 59.93450927734375, # level of confidence rekognition has in accuracy of the label
+   'Instances': [],
+   'Parents': [{'Name': 'Sport'},
+    {'Name': 'Person'},
+    {'Name': 'Working Out'},
+    {'Name': 'Fitness'}]}},
+```
+# note to self - ipython easily with '%save name_file.py 1-15' and specifiy lines
