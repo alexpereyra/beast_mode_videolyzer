@@ -1,8 +1,9 @@
 Pipfile
 Pipfile.lock
+.DS_Store
 
 # video files
-videos/*
+media/*
 
 # Distribution / packaging
 .Python
